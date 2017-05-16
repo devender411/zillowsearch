@@ -1,0 +1,7 @@
+c:\visual studio 2017\Projects\PropertyModels\bin\Debug\netcoreapp1.1\PropertyModels.deps.json
+c:\visual studio 2017\Projects\PropertyModels\bin\Debug\netcoreapp1.1\PropertyModels.dll
+c:\visual studio 2017\Projects\PropertyModels\bin\Debug\netcoreapp1.1\PropertyModels.pdb
+c:\visual studio 2017\Projects\PropertyModels\obj\Debug\netcoreapp1.1\PropertyModels.AssemblyInfo.cs
+c:\visual studio 2017\Projects\PropertyModels\obj\Debug\netcoreapp1.1\PropertyModels.dll
+c:\visual studio 2017\Projects\PropertyModels\obj\Debug\netcoreapp1.1\PropertyModels.pdb
+c:\visual studio 2017\Projects\PropertyModels\obj\Debug\netcoreapp1.1\PropertyModels.csprojResolveAssemblyReference.cache

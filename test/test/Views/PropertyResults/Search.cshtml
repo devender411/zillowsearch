@@ -1,0 +1,56 @@
+@model IEnumerable<PropertyModels.PropertySet>
+
+	@{
+    Layout = null;
+	}
+
+	<!DOCTYPE html>
+
+	<html>
+	<head>
+		<meta name="viewport" content="width=device-width" />
+		<title>Display Results</title>
+	</head>
+	<body>
+
+		<form asp-action="DisplayResults">
+			<div class="form-horizontal">
+				<h4>Property Details</h4>
+				<hr />
+
+			</div>
+			@foreach (var p in Model)
+	{
+				<div class="form-group">
+					<span>
+						Street:
+						<input asp-for="@p.address.Street" readonly class="form-control" />
+					</span>
+					<span>
+						City:
+						<input asp-for="@p.address.City" readonly class="form-control" />
+					</span>
+					<span>
+						State:
+						<input asp-for="@p.address.State" readonly class="form-control" />
+					</span>
+					<span>
+						Zip:
+						<input asp-for="@p.address.zipcode" readonly class="form-control" />
+					</span>
+					<span>
+						Latitude:
+						<input asp-for="@p.address.latitude" readonly class="form-control" />
+					</span>
+					<span>
+						Longitude:
+						<input asp-for="@p.address.longitude" readonly class="form-control" />
+					</span>
+				</div>
+				
+	}
+		</form>
+
+
+	</body>
+</html>
